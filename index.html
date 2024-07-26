@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIRNK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>DIRNK - Drinking Game</h1>
+        <div class="players">
+            <input type="text" id="player1" placeholder="Player 1">
+            <input type="text" id="player2" placeholder="Player 2">
+            <input type="text" id="player3" placeholder="Player 3">
+            <input type="text" id="player4" placeholder="Player 4">
+            <input type="text" id="player5" placeholder="Player 5">
+            <button id="startGameBtn">Start Game</button>
+        </div>
+        <div class="gameplay" style="display:none;">
+            <button id="drawCardBtn">Draw a Card</button>
+            <div class="card" id="cardDisplay"></div>
+            <div class="rule" id="ruleDisplay"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
